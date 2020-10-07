@@ -54,9 +54,9 @@ Module ControllerAutoComplete
         Dim data As DataTable = EntityPerson.getInstance().getPerson()
         If data.Rows.Count <> 0 Then
             For Each it As DataRow In data.Rows
-                If Not IsNothing(it.Item(1)) And Not it.Item(1) = "" And
-                   Not IsNothing(it.Item(2)) And Not it.Item(2) = "" Then
-                    MySource.Add($"{it.Item(1)}, {it.Item(2)}")
+                If Not IsNothing(it.Item(2)) And Not it.Item(2) = "" And
+                   Not IsNothing(it.Item(3)) And Not it.Item(3) = "" Then
+                    MySource.Add($"{it.Item(2)}, {it.Item(3)}")
                 End If
             Next
         End If
