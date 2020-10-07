@@ -21,7 +21,8 @@ Public Class ModelPerson
         connection.Close()
     End Function
 
-    Public Function addPerson(ByVal nom As String,
+    Public Function addPerson(ByVal matricule As Integer,
+                         ByVal nom As String,
                          ByVal prenom As String,
                          ByVal statut As String,
                          ByVal departement As String,
@@ -35,7 +36,7 @@ Public Class ModelPerson
             command.Connection = connection
             connection.Open()
             command.CommandText = $"insert into personne
-            values('','{nom}','{prenom}', '{statut}', '{departement}', '{service}', '{bureau}', '{telephone}', {poste}, '{email}')"
+            values('','{matricule}','{nom}','{prenom}', '{statut}', '{departement}', '{service}', '{bureau}', '{telephone}', {poste}, '{email}')"
 
             Dim result = command.ExecuteNonQuery()
             connection.Close()

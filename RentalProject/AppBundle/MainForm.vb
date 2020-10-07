@@ -78,16 +78,12 @@
         InterfacePanel.Controls.Add(persons)
         persons.BringToFront()
     End Sub
-    'yio'
+
     Private Sub ReturnButton_Click(sender As Object, e As EventArgs) Handles ReturnButton.Click
         InterfacePanel.Controls.Clear()
         Dim viewReturns As New IViewReturns(Me)
         viewReturns.Dock = DockStyle.Fill
         InterfacePanel.Controls.Add(viewReturns)
         viewReturns.BringToFront()
-    End Sub
-
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles ReservationButton.Click
-
     End Sub
 End Class
