@@ -1,0 +1,322 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+RentalProject
+</name>
+</assembly>
+<members>
+<member name="T:RentalProject.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:RentalProject.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:RentalProject.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:RentalProject.My.Resources.Resources.baseline_add_white_18dp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:RentalProject.My.Resources.Resources.baseline_backward_black_18dp_4x">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:RentalProject.My.Resources.Resources.baseline_clear_black_18dp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:RentalProject.My.Resources.Resources.baseline_clear_white_18dp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:RentalProject.My.Resources.Resources.baseline_create_white_18dp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:RentalProject.My.Resources.Resources.baseline_maximize_black_18dp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:RentalProject.My.Resources.Resources.baseline_minimize_black_18dp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:RentalProject.My.Resources.Resources.baseline_search_white_18dp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:RentalProject.My.Resources.Resources.baseline_sync_black_18dp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:RentalProject.My.Resources.Resources.Small_logo_departement_informatique">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:RentalProject.ControllerDates.isValidReturnDate(System.DateTime)">
+ <summary>
+ Cette fonction vérifie une date passé en paramètre
+ pour s'assurer que la date ne soit pas pendant une
+ fin de semaine ou une journée fériée.
+ </summary>
+ <param name="returnDate"></param>
+ <returns></returns>
+</member>
+<member name="M:RentalProject.ModelRental.updateEquipmentAvailable(System.String)">
+ <summary>
+ Mets l'équipement qui est retourné disponible.
+ </summary>
+ <param name="id"></param>
+</member>
+<member name="M:RentalProject.ModelRental.updateEquipmentNonAvailable(System.String)">
+ <summary>
+ Mets l'équipement qui est emprunté non disponible.
+ </summary>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:RentalProject.ModelRental.updateRentalReturnDate(System.Int32,System.String,System.DateTime,System.String)">
+ <summary>
+ Cette fonction est appelé dans l'interface de modification
+ d'emprunt lorsque la date de retour est valide et
+ l'utilisateur appuie sur le bouton sauvegarder.
+ </summary>
+ <param name="id"></param>
+ <param name="duree"></param>
+ <param name="dateRetour"></param>
+ <param name="commentaires"></param>
+ <returns></returns>
+</member>
+<member name="M:RentalProject.IAddPerson.IsEmail(System.String)">
+ <summary>
+ Cette fonction vérifie que l'adresse courriel est valide.
+ </summary>
+ <param name="email"></param>
+ <returns></returns>
+</member>
+<member name="M:RentalProject.IModifyPerson.setDefaults">
+ <summary>
+ Entre les valeurs initiales de la personne sélectionné.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:RentalProject.IModifyPerson.IsEmail(System.String)">
+ <summary>
+ Cette fonction vérifie que l'adresse courriel est valide.
+ </summary>
+ <param name="email"></param>
+ <returns></returns>
+</member>
+<member name="M:RentalProject.IModifyPerson.SaveButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Gestion des valeurs entrés dans les champs texts et permet l'ajout
+ seulement si les champs sont valide.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:RentalProject.IModifyPerson.Status_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ Gestion des champs acéssibles selon le statut de personne (étudiant, prof, etc).
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:RentalProject.IPersonDetails.setDefaults">
+ <summary>
+ Entre les données de la personne selectionné dans les champs text.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:RentalProject.IPersonSearch.Radio_CheckedChanged(System.Object,System.EventArgs)">
+ <summary>
+ Fait la gestion des champs textes lorsq'un boutton radio différent
+ est sélectionné.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:RentalProject.IPersonSearch.SearchButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Fait la gestion des valeurs entrées dans les champs textes.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:RentalProject.IPersonSearch.SearchItems">
+ <summary>
+ Fait la recherche selon les parametres entrés et les affiche.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:RentalProject.IPersonSearch.SearchBoxes_TextChanged(System.Object,System.EventArgs)">
+ <summary>
+ Débloque le bouton recherche si selon les valeurs entrés
+ dans les champs text ou si l'un des bouttons radio selon les emprunts est coché.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:RentalProject.IModifyRental.setDefaults">
+ <summary>
+ Entre les valeurs initiales de l'emprunt dans les champs text et les dates.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:RentalProject.IModifyRental.Duration_ValueChanged(System.Object,System.EventArgs)">
+ <summary>
+ Vérifie si la date de retour sélectionné est valide selon
+ les dates d'ouverture du cegep. Elle débloque ou bloque
+ aussi le boutton sauvegarder selon la date de retour.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:RentalProject.IModifyRental.CheckBox1_CheckedChanged(System.Object,System.EventArgs)">
+ <summary>
+ Gestion des champs de temps d'emprunt selon
+ si la boite de date fixe est cochée.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:RentalProject.IModifyRental.ReturnDate_ValueChanged(System.Object,System.EventArgs)">
+ <summary>
+ Entre automatiquement le délai en heure et jours selon la date de retour.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="F:RentalProject.IRentalsDetails.id">
+ <summary>
+ Cet attribut est le numéro de'emprunt pour récupérer
+ touts les informations requises de la base de données
+ </summary>
+</member>
+<member name="M:RentalProject.IRentalsDetails.IRentalsDetails_Load(System.Object,System.EventArgs)">
+ <summary>
+ Ce Sub applique les données récupérées dans les champs textes.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:RentalProject.IRentalsDetails.ModifyButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Ce sub permet de modifier les informations de l'emprunt affiché.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:RentalProject.IHome.PictureBox1_Click(System.Object,System.EventArgs)">
+ <summary>
+ Pour le fun: si vous double cliquez sur le logo,
+ vous pourrez être redirigé vers la page du département.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:RentalProject.IRentals.loadData(System.Data.DataTable)">
+ <summary>
+ Fonction affichant la liste des emprunts et empêche
+ l'utilisateur d'appuyer le bouton recherche s'il n'y en a pas.
+ </summary>
+ <param name="data"></param>
+ <returns></returns>
+</member>
+<member name="M:RentalProject.IRentals.ListView1_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ Permet l'utilisateur d'appuyer le boutton détail
+ si un emprunt est sélectionné dans la liste.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:RentalProject.IRentalsSearch.loadData(System.Data.DataTable,System.Boolean)">
+ <summary>
+ Cette fonction permet de charger les donnés qui seront affiché à l'utilisateur.
+ </summary>
+ <param name="data"></param>
+ <param name="type"></param>
+ <returns></returns>
+</member>
+<member name="M:RentalProject.IRentalsSearch.ListView1_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ Ce Sub agit lors d'une modification à la ligne sélectionné et
+ permet d'afficher les détails de l'article choisi.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:RentalProject.IRentalsSearch.Radio_CheckedChanged(System.Object,System.EventArgs)">
+ <summary>
+ Ce sub agit lorsqu'un nouveau boutton radio est choisi
+ et déactive les autres champs text.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:RentalProject.IRentalsSearch.SearchBoxes_TextChanged(System.Object,System.EventArgs)">
+ <summary>
+ Ce sub agit lorsque les champs text sont modifié pour
+ débloquer le boutton recherche si les champs contiennent des données.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:RentalProject.IRentalsSearch.SearchItems">
+ <summary>
+ Cette fonction effectue la recherche lorsque le bouton
+ recherche est appuyé selon les paramètres de chercherches entrés.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:RentalProject.IRentalsSearch.DetailsButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ Affiche l'interface d'informations détaillées de l'article sélectionné.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:RentalProject.IReturnDetails.IReturnDetails_Load(System.Object,System.EventArgs)">
+ <summary>
+ Ce Sub applique les données récupérées dans les champs textes.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:RentalProject.IViewReturns.Radio_CheckedChanged(System.Object,System.EventArgs)">
+ <summary>
+ Ce sub agit lorsqu'un nouveau boutton radio est choisi
+ et déactive les autres champs text.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:RentalProject.IViewReturns.SearchItems">
+ <summary>
+ Cette fonction effectue la recherche lorsque le bouton
+ recherche est appuyé selon les paramètres de chercherches entrés.
+ </summary>
+ <returns></returns>
+</member>
+</members>
+</doc>
