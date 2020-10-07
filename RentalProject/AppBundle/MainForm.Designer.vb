@@ -34,6 +34,7 @@ Partial Class MainForm
         Me.ReturnButton = New System.Windows.Forms.Button()
         Me.RentalsButton = New System.Windows.Forms.Button()
         Me.InterfacePanel = New System.Windows.Forms.Panel()
+        Me.ReservationButton = New System.Windows.Forms.Button()
         Me.HeaderBar.SuspendLayout()
         Me.MenuPanel.SuspendLayout()
         Me.SuspendLayout()
@@ -97,6 +98,7 @@ Partial Class MainForm
         'MenuPanel
         '
         Me.MenuPanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
+        Me.MenuPanel.Controls.Add(Me.ReservationButton)
         Me.MenuPanel.Controls.Add(Me.CloseButton)
         Me.MenuPanel.Controls.Add(Me.PersonButton)
         Me.MenuPanel.Controls.Add(Me.InventoryButton)
@@ -209,6 +211,24 @@ Partial Class MainForm
         Me.InterfacePanel.Size = New System.Drawing.Size(781, 542)
         Me.InterfacePanel.TabIndex = 2
         '
+        'ReservationButton
+        '
+        Me.ReservationButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.ReservationButton.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ReservationButton.Dock = System.Windows.Forms.DockStyle.Top
+        Me.ReservationButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
+        Me.ReservationButton.FlatAppearance.BorderSize = 2
+        Me.ReservationButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.ReservationButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ReservationButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ReservationButton.Location = New System.Drawing.Point(0, 232)
+        Me.ReservationButton.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.ReservationButton.Name = "ReservationButton"
+        Me.ReservationButton.Size = New System.Drawing.Size(200, 58)
+        Me.ReservationButton.TabIndex = 6
+        Me.ReservationButton.Text = "Réservation"
+        Me.ReservationButton.UseVisualStyleBackColor = False
+        '
         'MainForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -240,4 +260,5 @@ Partial Class MainForm
     Friend WithEvents InventoryButton As Button
     Friend WithEvents RentalsButton As Button
     Friend WithEvents ReturnButton As Button
+    Friend WithEvents ReservationButton As Button
 End Class
