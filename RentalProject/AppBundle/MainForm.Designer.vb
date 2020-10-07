@@ -35,6 +35,9 @@ Partial Class MainForm
         Me.ReturnButton = New System.Windows.Forms.Button()
         Me.RentalsButton = New System.Windows.Forms.Button()
         Me.InterfacePanel = New System.Windows.Forms.Panel()
+        Me.TimesheetButton = New System.Windows.Forms.Button()
+        Me.StatsButton = New System.Windows.Forms.Button()
+        Me.NotifyButton = New System.Windows.Forms.Button()
         Me.HeaderBar.SuspendLayout()
         Me.MenuPanel.SuspendLayout()
         Me.SuspendLayout()
@@ -99,6 +102,9 @@ Partial Class MainForm
         'MenuPanel
         '
         Me.MenuPanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
+        Me.MenuPanel.Controls.Add(Me.NotifyButton)
+        Me.MenuPanel.Controls.Add(Me.StatsButton)
+        Me.MenuPanel.Controls.Add(Me.TimesheetButton)
         Me.MenuPanel.Controls.Add(Me.ReservationButton)
         Me.MenuPanel.Controls.Add(Me.CloseButton)
         Me.MenuPanel.Controls.Add(Me.PersonButton)
@@ -230,6 +236,60 @@ Partial Class MainForm
         Me.InterfacePanel.Size = New System.Drawing.Size(586, 440)
         Me.InterfacePanel.TabIndex = 2
         '
+        'TimesheetButton
+        '
+        Me.TimesheetButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.TimesheetButton.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.TimesheetButton.Dock = System.Windows.Forms.DockStyle.Top
+        Me.TimesheetButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
+        Me.TimesheetButton.FlatAppearance.BorderSize = 2
+        Me.TimesheetButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.TimesheetButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.TimesheetButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TimesheetButton.Location = New System.Drawing.Point(0, 235)
+        Me.TimesheetButton.Margin = New System.Windows.Forms.Padding(2)
+        Me.TimesheetButton.Name = "TimesheetButton"
+        Me.TimesheetButton.Size = New System.Drawing.Size(150, 47)
+        Me.TimesheetButton.TabIndex = 7
+        Me.TimesheetButton.Text = "Horaire"
+        Me.TimesheetButton.UseVisualStyleBackColor = False
+        '
+        'StatsButton
+        '
+        Me.StatsButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.StatsButton.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.StatsButton.Dock = System.Windows.Forms.DockStyle.Top
+        Me.StatsButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
+        Me.StatsButton.FlatAppearance.BorderSize = 2
+        Me.StatsButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.StatsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.StatsButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.StatsButton.Location = New System.Drawing.Point(0, 282)
+        Me.StatsButton.Margin = New System.Windows.Forms.Padding(2)
+        Me.StatsButton.Name = "StatsButton"
+        Me.StatsButton.Size = New System.Drawing.Size(150, 47)
+        Me.StatsButton.TabIndex = 8
+        Me.StatsButton.Text = "Statistique"
+        Me.StatsButton.UseVisualStyleBackColor = False
+        '
+        'NotifyButton
+        '
+        Me.NotifyButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.NotifyButton.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.NotifyButton.Dock = System.Windows.Forms.DockStyle.Top
+        Me.NotifyButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
+        Me.NotifyButton.FlatAppearance.BorderSize = 2
+        Me.NotifyButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.NotifyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.NotifyButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.NotifyButton.Location = New System.Drawing.Point(0, 329)
+        Me.NotifyButton.Margin = New System.Windows.Forms.Padding(2)
+        Me.NotifyButton.Name = "NotifyButton"
+        Me.NotifyButton.Size = New System.Drawing.Size(150, 47)
+        Me.NotifyButton.TabIndex = 9
+        Me.NotifyButton.Text = "Notification Center"
+        Me.NotifyButton.UseVisualStyleBackColor = False
+        '
         'MainForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -262,4 +322,7 @@ Partial Class MainForm
     Friend WithEvents RentalsButton As Button
     Friend WithEvents ReturnButton As Button
     Friend WithEvents ReservationButton As Button
+    Friend WithEvents NotifyButton As Button
+    Friend WithEvents StatsButton As Button
+    Friend WithEvents TimesheetButton As Button
 End Class

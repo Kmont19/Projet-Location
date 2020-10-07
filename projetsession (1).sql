@@ -147,13 +147,13 @@ CREATE TABLE IF NOT EXISTS `retour` (
   `noRetour` int(10) NOT NULL AUTO_INCREMENT,
   `nomReception` varchar(30) NOT NULL,
   `noPersonne` int(20) NOT NULL,
-  `noEquipement` varchar(15) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `noEquipement` varchar(15) CHARACTER SET utf8mb4 NOT NULL,
   `dateRetour` datetime NOT NULL,
   `note` text NOT NULL,
   PRIMARY KEY (`noRetour`,`noEquipement`) USING BTREE,
   KEY `fk_noPersonne` (`noPersonne`),
   KEY `fk_noEquipement` (`noEquipement`)
-) ENGINE=MyISAM AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4;
 
 --
 -- Déchargement des données de la table `retour`
@@ -171,10 +171,10 @@ INSERT INTO `retour` (`noRetour`, `nomReception`, `noPersonne`, `noEquipement`, 
 DROP TABLE IF EXISTS `utilisateur`;
 CREATE TABLE IF NOT EXISTS `utilisateur` (
   `matricule` int(7) NOT NULL,
-  `password` varchar(30) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `statut` varchar(30) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `password` varchar(30) CHARACTER SET utf8mb4 NOT NULL,
+  `statut` varchar(30) CHARACTER SET utf8mb4 NOT NULL,
   PRIMARY KEY (`matricule`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
