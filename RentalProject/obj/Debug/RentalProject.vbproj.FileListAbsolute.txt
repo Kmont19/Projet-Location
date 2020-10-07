@@ -125,3 +125,46 @@ C:\Users\dacam\Desktop\Projet de session\RentalProject\obj\Debug\RentalProject.v
 C:\Users\dacam\Desktop\Projet de session\RentalProject\obj\Debug\RentalProject.exe
 C:\Users\dacam\Desktop\Projet de session\RentalProject\obj\Debug\RentalProject.xml
 C:\Users\dacam\Desktop\Projet de session\RentalProject\obj\Debug\RentalProject.pdb
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\bin\Debug\RentalProject.exe.config
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\bin\Debug\RentalProject.exe
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\bin\Debug\RentalProject.pdb
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\bin\Debug\RentalProject.xml
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\bin\Debug\Google.Protobuf.dll
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\bin\Debug\MySql.Data.dll
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\bin\Debug\Renci.SshNet.dll
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\bin\Debug\Google.Protobuf.xml
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\bin\Debug\MySql.Data.xml
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\bin\Debug\Renci.SshNet.xml
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.vbprojAssemblyReference.cache
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.MainForm.resources
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.ICategorieAutre.resources
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.IModifyPerson.resources
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.IInventorySearch.resources
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.IModifyRental.resources
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.ICategory.resources
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.ICategorySearch.resources
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.IAddPerson.resources
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.IPerson.resources
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.IPersonDetails.resources
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.IPersonSearch.resources
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.IRentalsDetails.resources
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.IEmprunt.resources
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.IHome.resources
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.IInventory.resources
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.IRentals.resources
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.IRentalsSearch.resources
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.IAddInventory.resources
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.IModifyInventory.resources
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.IEquipmentDetails.resources
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.IReturnDetails.resources
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.IViewReturnDetails.resources
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.IViewReturns.resources
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.Resources.resources
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.vbproj.GenerateResource.cache
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.vbproj.CoreCompileInputs.cache
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.vbproj.CopyComplete
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.exe
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.xml
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.pdb
