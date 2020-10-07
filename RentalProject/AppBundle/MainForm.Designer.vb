@@ -28,6 +28,9 @@ Partial Class MainForm
         Me.MinimizeButton = New System.Windows.Forms.Button()
         Me.ExitButton = New System.Windows.Forms.Button()
         Me.MenuPanel = New System.Windows.Forms.Panel()
+        Me.NotifyButton = New System.Windows.Forms.Button()
+        Me.StatsButton = New System.Windows.Forms.Button()
+        Me.TimesheetButton = New System.Windows.Forms.Button()
         Me.ReservationButton = New System.Windows.Forms.Button()
         Me.CloseButton = New System.Windows.Forms.Button()
         Me.PersonButton = New System.Windows.Forms.Button()
@@ -35,9 +38,6 @@ Partial Class MainForm
         Me.ReturnButton = New System.Windows.Forms.Button()
         Me.RentalsButton = New System.Windows.Forms.Button()
         Me.InterfacePanel = New System.Windows.Forms.Panel()
-        Me.TimesheetButton = New System.Windows.Forms.Button()
-        Me.StatsButton = New System.Windows.Forms.Button()
-        Me.NotifyButton = New System.Windows.Forms.Button()
         Me.HeaderBar.SuspendLayout()
         Me.MenuPanel.SuspendLayout()
         Me.SuspendLayout()
@@ -50,7 +50,7 @@ Partial Class MainForm
         Me.HeaderBar.Controls.Add(Me.ExitButton)
         Me.HeaderBar.Dock = System.Windows.Forms.DockStyle.Top
         Me.HeaderBar.Location = New System.Drawing.Point(0, 0)
-        Me.HeaderBar.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.HeaderBar.Margin = New System.Windows.Forms.Padding(2)
         Me.HeaderBar.Name = "HeaderBar"
         Me.HeaderBar.Size = New System.Drawing.Size(736, 36)
         Me.HeaderBar.TabIndex = 0
@@ -78,7 +78,7 @@ Partial Class MainForm
         Me.MinimizeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.MinimizeButton.Image = Global.RentalProject.My.Resources.Resources.baseline_minimize_black_18dp
         Me.MinimizeButton.Location = New System.Drawing.Point(650, 0)
-        Me.MinimizeButton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.MinimizeButton.Margin = New System.Windows.Forms.Padding(2)
         Me.MinimizeButton.Name = "MinimizeButton"
         Me.MinimizeButton.Size = New System.Drawing.Size(43, 36)
         Me.MinimizeButton.TabIndex = 15
@@ -93,7 +93,7 @@ Partial Class MainForm
         Me.ExitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ExitButton.Image = Global.RentalProject.My.Resources.Resources.baseline_clear_black_18dp
         Me.ExitButton.Location = New System.Drawing.Point(693, 0)
-        Me.ExitButton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ExitButton.Margin = New System.Windows.Forms.Padding(2)
         Me.ExitButton.Name = "ExitButton"
         Me.ExitButton.Size = New System.Drawing.Size(43, 36)
         Me.ExitButton.TabIndex = 17
@@ -113,164 +113,10 @@ Partial Class MainForm
         Me.MenuPanel.Controls.Add(Me.RentalsButton)
         Me.MenuPanel.Dock = System.Windows.Forms.DockStyle.Left
         Me.MenuPanel.Location = New System.Drawing.Point(0, 36)
-        Me.MenuPanel.Margin = New System.Windows.Forms.Padding(8, 8, 8, 8)
+        Me.MenuPanel.Margin = New System.Windows.Forms.Padding(8)
         Me.MenuPanel.Name = "MenuPanel"
         Me.MenuPanel.Size = New System.Drawing.Size(150, 440)
         Me.MenuPanel.TabIndex = 1
-        '
-        'ReservationButton
-        '
-        Me.ReservationButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
-        Me.ReservationButton.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.ReservationButton.Dock = System.Windows.Forms.DockStyle.Top
-        Me.ReservationButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
-        Me.ReservationButton.FlatAppearance.BorderSize = 2
-        Me.ReservationButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(243, Byte), Integer))
-        Me.ReservationButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ReservationButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ReservationButton.Location = New System.Drawing.Point(0, 188)
-        Me.ReservationButton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.ReservationButton.Name = "ReservationButton"
-        Me.ReservationButton.Size = New System.Drawing.Size(150, 47)
-        Me.ReservationButton.TabIndex = 6
-        Me.ReservationButton.Text = "Réservation"
-        Me.ReservationButton.UseVisualStyleBackColor = False
-        '
-        'CloseButton
-        '
-        Me.CloseButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
-        Me.CloseButton.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.CloseButton.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.CloseButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
-        Me.CloseButton.FlatAppearance.BorderSize = 2
-        Me.CloseButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(243, Byte), Integer))
-        Me.CloseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.CloseButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CloseButton.Location = New System.Drawing.Point(0, 393)
-        Me.CloseButton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.CloseButton.Name = "CloseButton"
-        Me.CloseButton.Size = New System.Drawing.Size(150, 47)
-        Me.CloseButton.TabIndex = 3
-        Me.CloseButton.Text = "Quitter l'application"
-        Me.CloseButton.UseVisualStyleBackColor = False
-        '
-        'PersonButton
-        '
-        Me.PersonButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
-        Me.PersonButton.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PersonButton.Dock = System.Windows.Forms.DockStyle.Top
-        Me.PersonButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
-        Me.PersonButton.FlatAppearance.BorderSize = 2
-        Me.PersonButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(243, Byte), Integer))
-        Me.PersonButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.PersonButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.PersonButton.Location = New System.Drawing.Point(0, 141)
-        Me.PersonButton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.PersonButton.Name = "PersonButton"
-        Me.PersonButton.Size = New System.Drawing.Size(150, 47)
-        Me.PersonButton.TabIndex = 2
-        Me.PersonButton.Text = "Personnes"
-        Me.PersonButton.UseVisualStyleBackColor = False
-        '
-        'InventoryButton
-        '
-        Me.InventoryButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
-        Me.InventoryButton.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.InventoryButton.Dock = System.Windows.Forms.DockStyle.Top
-        Me.InventoryButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
-        Me.InventoryButton.FlatAppearance.BorderSize = 2
-        Me.InventoryButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(243, Byte), Integer))
-        Me.InventoryButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.InventoryButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.InventoryButton.Location = New System.Drawing.Point(0, 94)
-        Me.InventoryButton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.InventoryButton.Name = "InventoryButton"
-        Me.InventoryButton.Size = New System.Drawing.Size(150, 47)
-        Me.InventoryButton.TabIndex = 1
-        Me.InventoryButton.Text = "Inventaire"
-        Me.InventoryButton.UseVisualStyleBackColor = False
-        '
-        'ReturnButton
-        '
-        Me.ReturnButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
-        Me.ReturnButton.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.ReturnButton.Dock = System.Windows.Forms.DockStyle.Top
-        Me.ReturnButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
-        Me.ReturnButton.FlatAppearance.BorderSize = 2
-        Me.ReturnButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(243, Byte), Integer))
-        Me.ReturnButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ReturnButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ReturnButton.Location = New System.Drawing.Point(0, 47)
-        Me.ReturnButton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.ReturnButton.Name = "ReturnButton"
-        Me.ReturnButton.Size = New System.Drawing.Size(150, 47)
-        Me.ReturnButton.TabIndex = 5
-        Me.ReturnButton.Text = "Historique"
-        Me.ReturnButton.UseVisualStyleBackColor = False
-        '
-        'RentalsButton
-        '
-        Me.RentalsButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
-        Me.RentalsButton.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.RentalsButton.Dock = System.Windows.Forms.DockStyle.Top
-        Me.RentalsButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
-        Me.RentalsButton.FlatAppearance.BorderSize = 2
-        Me.RentalsButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(243, Byte), Integer))
-        Me.RentalsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.RentalsButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RentalsButton.Location = New System.Drawing.Point(0, 0)
-        Me.RentalsButton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.RentalsButton.Name = "RentalsButton"
-        Me.RentalsButton.Size = New System.Drawing.Size(150, 47)
-        Me.RentalsButton.TabIndex = 0
-        Me.RentalsButton.Text = "Emprunts"
-        Me.RentalsButton.UseVisualStyleBackColor = False
-        '
-        'InterfacePanel
-        '
-        Me.InterfacePanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(187, Byte), Integer), CType(CType(222, Byte), Integer), CType(CType(251, Byte), Integer))
-        Me.InterfacePanel.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.InterfacePanel.Location = New System.Drawing.Point(150, 36)
-        Me.InterfacePanel.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.InterfacePanel.Name = "InterfacePanel"
-        Me.InterfacePanel.Size = New System.Drawing.Size(586, 440)
-        Me.InterfacePanel.TabIndex = 2
-        '
-        'TimesheetButton
-        '
-        Me.TimesheetButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
-        Me.TimesheetButton.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.TimesheetButton.Dock = System.Windows.Forms.DockStyle.Top
-        Me.TimesheetButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
-        Me.TimesheetButton.FlatAppearance.BorderSize = 2
-        Me.TimesheetButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(243, Byte), Integer))
-        Me.TimesheetButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.TimesheetButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TimesheetButton.Location = New System.Drawing.Point(0, 235)
-        Me.TimesheetButton.Margin = New System.Windows.Forms.Padding(2)
-        Me.TimesheetButton.Name = "TimesheetButton"
-        Me.TimesheetButton.Size = New System.Drawing.Size(150, 47)
-        Me.TimesheetButton.TabIndex = 7
-        Me.TimesheetButton.Text = "Horaire"
-        Me.TimesheetButton.UseVisualStyleBackColor = False
-        '
-        'StatsButton
-        '
-        Me.StatsButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
-        Me.StatsButton.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.StatsButton.Dock = System.Windows.Forms.DockStyle.Top
-        Me.StatsButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
-        Me.StatsButton.FlatAppearance.BorderSize = 2
-        Me.StatsButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(243, Byte), Integer))
-        Me.StatsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.StatsButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.StatsButton.Location = New System.Drawing.Point(0, 282)
-        Me.StatsButton.Margin = New System.Windows.Forms.Padding(2)
-        Me.StatsButton.Name = "StatsButton"
-        Me.StatsButton.Size = New System.Drawing.Size(150, 47)
-        Me.StatsButton.TabIndex = 8
-        Me.StatsButton.Text = "Statistique"
-        Me.StatsButton.UseVisualStyleBackColor = False
         '
         'NotifyButton
         '
@@ -290,6 +136,160 @@ Partial Class MainForm
         Me.NotifyButton.Text = "Notification Center"
         Me.NotifyButton.UseVisualStyleBackColor = False
         '
+        'StatsButton
+        '
+        Me.StatsButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.StatsButton.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.StatsButton.Dock = System.Windows.Forms.DockStyle.Top
+        Me.StatsButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
+        Me.StatsButton.FlatAppearance.BorderSize = 2
+        Me.StatsButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.StatsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.StatsButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.StatsButton.Location = New System.Drawing.Point(0, 282)
+        Me.StatsButton.Margin = New System.Windows.Forms.Padding(2)
+        Me.StatsButton.Name = "StatsButton"
+        Me.StatsButton.Size = New System.Drawing.Size(150, 47)
+        Me.StatsButton.TabIndex = 8
+        Me.StatsButton.Text = "Statistique"
+        Me.StatsButton.UseVisualStyleBackColor = False
+        '
+        'TimesheetButton
+        '
+        Me.TimesheetButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.TimesheetButton.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.TimesheetButton.Dock = System.Windows.Forms.DockStyle.Top
+        Me.TimesheetButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
+        Me.TimesheetButton.FlatAppearance.BorderSize = 2
+        Me.TimesheetButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.TimesheetButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.TimesheetButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TimesheetButton.Location = New System.Drawing.Point(0, 235)
+        Me.TimesheetButton.Margin = New System.Windows.Forms.Padding(2)
+        Me.TimesheetButton.Name = "TimesheetButton"
+        Me.TimesheetButton.Size = New System.Drawing.Size(150, 47)
+        Me.TimesheetButton.TabIndex = 7
+        Me.TimesheetButton.Text = "Horaire"
+        Me.TimesheetButton.UseVisualStyleBackColor = False
+        '
+        'ReservationButton
+        '
+        Me.ReservationButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.ReservationButton.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ReservationButton.Dock = System.Windows.Forms.DockStyle.Top
+        Me.ReservationButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
+        Me.ReservationButton.FlatAppearance.BorderSize = 2
+        Me.ReservationButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.ReservationButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ReservationButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ReservationButton.Location = New System.Drawing.Point(0, 188)
+        Me.ReservationButton.Margin = New System.Windows.Forms.Padding(2)
+        Me.ReservationButton.Name = "ReservationButton"
+        Me.ReservationButton.Size = New System.Drawing.Size(150, 47)
+        Me.ReservationButton.TabIndex = 6
+        Me.ReservationButton.Text = "Réservation"
+        Me.ReservationButton.UseVisualStyleBackColor = False
+        '
+        'CloseButton
+        '
+        Me.CloseButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.CloseButton.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.CloseButton.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.CloseButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
+        Me.CloseButton.FlatAppearance.BorderSize = 2
+        Me.CloseButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.CloseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CloseButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CloseButton.Location = New System.Drawing.Point(0, 393)
+        Me.CloseButton.Margin = New System.Windows.Forms.Padding(2)
+        Me.CloseButton.Name = "CloseButton"
+        Me.CloseButton.Size = New System.Drawing.Size(150, 47)
+        Me.CloseButton.TabIndex = 3
+        Me.CloseButton.Text = "Quitter l'application"
+        Me.CloseButton.UseVisualStyleBackColor = False
+        '
+        'PersonButton
+        '
+        Me.PersonButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.PersonButton.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PersonButton.Dock = System.Windows.Forms.DockStyle.Top
+        Me.PersonButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
+        Me.PersonButton.FlatAppearance.BorderSize = 2
+        Me.PersonButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.PersonButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.PersonButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PersonButton.Location = New System.Drawing.Point(0, 141)
+        Me.PersonButton.Margin = New System.Windows.Forms.Padding(2)
+        Me.PersonButton.Name = "PersonButton"
+        Me.PersonButton.Size = New System.Drawing.Size(150, 47)
+        Me.PersonButton.TabIndex = 2
+        Me.PersonButton.Text = "Personnes"
+        Me.PersonButton.UseVisualStyleBackColor = False
+        '
+        'InventoryButton
+        '
+        Me.InventoryButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.InventoryButton.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.InventoryButton.Dock = System.Windows.Forms.DockStyle.Top
+        Me.InventoryButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
+        Me.InventoryButton.FlatAppearance.BorderSize = 2
+        Me.InventoryButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.InventoryButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.InventoryButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.InventoryButton.Location = New System.Drawing.Point(0, 94)
+        Me.InventoryButton.Margin = New System.Windows.Forms.Padding(2)
+        Me.InventoryButton.Name = "InventoryButton"
+        Me.InventoryButton.Size = New System.Drawing.Size(150, 47)
+        Me.InventoryButton.TabIndex = 1
+        Me.InventoryButton.Text = "Inventaire"
+        Me.InventoryButton.UseVisualStyleBackColor = False
+        '
+        'ReturnButton
+        '
+        Me.ReturnButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.ReturnButton.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ReturnButton.Dock = System.Windows.Forms.DockStyle.Top
+        Me.ReturnButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
+        Me.ReturnButton.FlatAppearance.BorderSize = 2
+        Me.ReturnButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.ReturnButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ReturnButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ReturnButton.Location = New System.Drawing.Point(0, 47)
+        Me.ReturnButton.Margin = New System.Windows.Forms.Padding(2)
+        Me.ReturnButton.Name = "ReturnButton"
+        Me.ReturnButton.Size = New System.Drawing.Size(150, 47)
+        Me.ReturnButton.TabIndex = 5
+        Me.ReturnButton.Text = "Historique"
+        Me.ReturnButton.UseVisualStyleBackColor = False
+        '
+        'RentalsButton
+        '
+        Me.RentalsButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(150, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.RentalsButton.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.RentalsButton.Dock = System.Windows.Forms.DockStyle.Top
+        Me.RentalsButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(96, Byte), Integer), CType(CType(125, Byte), Integer), CType(CType(139, Byte), Integer))
+        Me.RentalsButton.FlatAppearance.BorderSize = 2
+        Me.RentalsButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(33, Byte), Integer), CType(CType(100, Byte), Integer), CType(CType(243, Byte), Integer))
+        Me.RentalsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.RentalsButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RentalsButton.Location = New System.Drawing.Point(0, 0)
+        Me.RentalsButton.Margin = New System.Windows.Forms.Padding(2)
+        Me.RentalsButton.Name = "RentalsButton"
+        Me.RentalsButton.Size = New System.Drawing.Size(150, 47)
+        Me.RentalsButton.TabIndex = 0
+        Me.RentalsButton.Text = "Emprunts"
+        Me.RentalsButton.UseVisualStyleBackColor = False
+        '
+        'InterfacePanel
+        '
+        Me.InterfacePanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(187, Byte), Integer), CType(CType(222, Byte), Integer), CType(CType(251, Byte), Integer))
+        Me.InterfacePanel.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.InterfacePanel.Location = New System.Drawing.Point(150, 36)
+        Me.InterfacePanel.Margin = New System.Windows.Forms.Padding(2)
+        Me.InterfacePanel.Name = "InterfacePanel"
+        Me.InterfacePanel.Size = New System.Drawing.Size(586, 440)
+        Me.InterfacePanel.TabIndex = 2
+        '
         'MainForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -300,7 +300,7 @@ Partial Class MainForm
         Me.Controls.Add(Me.HeaderBar)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "MainForm"
         Me.Text = "MainForm"
         Me.HeaderBar.ResumeLayout(False)

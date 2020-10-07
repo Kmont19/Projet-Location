@@ -211,3 +211,4 @@ C:\Users\Marc-\OneDrive\Bureau\Projet-Location\RentalProject\obj\Debug\RentalPro
 C:\Users\Marc-\OneDrive\Bureau\Projet-Location\RentalProject\obj\Debug\RentalProject.exe
 C:\Users\Marc-\OneDrive\Bureau\Projet-Location\RentalProject\obj\Debug\RentalProject.xml
 C:\Users\Marc-\OneDrive\Bureau\Projet-Location\RentalProject\obj\Debug\RentalProject.pdb
+C:\Users\Olivier\Source\Repos\Projet-Location\RentalProject\obj\Debug\RentalProject.ITimeSheet.resources
