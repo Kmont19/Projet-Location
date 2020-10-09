@@ -102,7 +102,6 @@
     <Compile Include="AppBundle\Controllers\ControllerAutoComplete.vb" />
     <Compile Include="AppBundle\Controllers\ControllerDates.vb" />
     <Compile Include="AppBundle\Entity\EntityCategory.vb" />
-    <Compile Include="AppBundle\Entity\EntityConnection.vb" />
     <Compile Include="AppBundle\Entity\EntityEquipment.vb" />
     <Compile Include="AppBundle\Entity\EntityPerson.vb" />
     <Compile Include="AppBundle\Entity\EntityRental.vb" />

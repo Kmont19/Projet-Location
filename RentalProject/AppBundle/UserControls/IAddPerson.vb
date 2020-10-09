@@ -48,8 +48,7 @@ Public Class IAddPerson
         TBDepartement.Text = Regex.Replace(TBDepartement.Text, "[^A-Za-z ]", String.Empty)
         TBService.Text = Regex.Replace(TBService.Text, "[^A-Za-z ]", String.Empty)
         Email.Text = Regex.Replace(Email.Text, "[^A-Za-z0-9-._@]", String.Empty)
-        If Not String.IsNullOrEmpty(TBMatricule.Text) And
-            Not String.IsNullOrEmpty(TBNom.Text) And
+        If Not String.IsNullOrEmpty(TBNom.Text) And
             Not String.IsNullOrEmpty(TBPrenom.Text) And
             Not String.IsNullOrEmpty(CBStatut.Text) And
             Not String.IsNullOrEmpty(TBTelephone.Text) And TBTelephone.TextLength = 14 Then
@@ -62,11 +61,11 @@ Public Class IAddPerson
                             If String.IsNullOrEmpty(TBPoste.Text) Then
                                 TBPoste.Text = 0
                             End If
-                            ModelPerson.getInstance.addPerson(TBMatricule.Text, TBNom.Text, TBPrenom.Text, CBStatut.Text, TBDepartement.Text, TBService.Text, TBBureau.Text, TBTelephone.Text, CInt(TBPoste.Text), Email.Text)
+                            ModelPerson.getInstance.addPerson(TBNom.Text, TBPrenom.Text, CBStatut.Text, TBDepartement.Text, TBService.Text, TBBureau.Text, TBTelephone.Text, CInt(TBPoste.Text), Email.Text)
                         Else MessageBox.Show("Veuillez Vérifier les informations")
                         End If
                     Else
-                        ModelPerson.getInstance.addPerson(TBMatricule.Text, TBNom.Text, TBPrenom.Text, CBStatut.Text, TBDepartement.Text, "", "", TBTelephone.Text, CInt("0"), Email.Text)
+                        ModelPerson.getInstance.addPerson(TBNom.Text, TBPrenom.Text, CBStatut.Text, TBDepartement.Text, "", "", TBTelephone.Text, CInt("0"), Email.Text)
                     End If
                     createPersonAutoComplete(rent.Person)
                     Me.SendToBack()
@@ -99,4 +98,5 @@ Public Class IAddPerson
             TBPoste.Enabled = False
         End If
     End Sub
+
 End Class

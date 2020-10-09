@@ -182,7 +182,7 @@ Public Class IEmprunt
 
     Public Function validPerson() As Boolean
         For Each it As DataRow In EntityPerson.getInstance().getPerson().Rows
-            Dim personName = $"{it.Item(2)}, {it.Item(3)}"
+            Dim personName = $"{it.Item(1)}, {it.Item(2)}"
             If personName = Person.Text Then
                 Return True
             End If

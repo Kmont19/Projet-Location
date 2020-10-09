@@ -82,6 +82,7 @@ C:\Users\dacam\Documents\Technique en informatique\Session 5\Multimedia\Projet d
 C:\Users\dacam\Documents\Technique en informatique\Session 5\Multimedia\Projet de session\RentalProject\obj\Debug\RentalProject.exe
 C:\Users\dacam\Documents\Technique en informatique\Session 5\Multimedia\Projet de session\RentalProject\obj\Debug\RentalProject.xml
 C:\Users\dacam\Documents\Technique en informatique\Session 5\Multimedia\Projet de session\RentalProject\obj\Debug\RentalProject.pdb
+C:\Users\dacam\Documents\Technique en informatique\Session 5\Multimedia\Projet de session\RentalProject\obj\Debug\RentalProject.Connexion.resources
 C:\Users\dacam\Desktop\Projet de session\RentalProject\bin\Debug\RentalProject.exe.config
 C:\Users\dacam\Desktop\Projet de session\RentalProject\bin\Debug\RentalProject.exe
 C:\Users\dacam\Desktop\Projet de session\RentalProject\bin\Debug\RentalProject.pdb

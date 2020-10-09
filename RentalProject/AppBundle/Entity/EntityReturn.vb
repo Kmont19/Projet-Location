@@ -91,7 +91,7 @@ Public Class EntityReturn
             command.CommandText = $"Select noPersonne from retour where noPersonne = {id}"
             connection.Open()
             Dim reader = command.ExecuteReader()
-            Dim rentalTable As New DataTable("retour")
+            Dim rentalTable As New DataTable("retout")
             rentalTable.Load(reader)
             connection.Close()
             If rentalTable.Rows.Count = 0 Then
