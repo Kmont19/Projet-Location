@@ -50,7 +50,7 @@ Partial Class MainForm
         Me.HeaderBar.Controls.Add(Me.ExitButton)
         Me.HeaderBar.Dock = System.Windows.Forms.DockStyle.Top
         Me.HeaderBar.Location = New System.Drawing.Point(0, 0)
-        Me.HeaderBar.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.HeaderBar.Margin = New System.Windows.Forms.Padding(2)
         Me.HeaderBar.Name = "HeaderBar"
         Me.HeaderBar.Size = New System.Drawing.Size(736, 36)
         Me.HeaderBar.TabIndex = 0
