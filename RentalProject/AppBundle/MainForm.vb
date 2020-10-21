@@ -86,4 +86,28 @@
         InterfacePanel.Controls.Add(viewReturns)
         viewReturns.BringToFront()
     End Sub
+
+    Private Sub TimesheetButton_Click(sender As Object, e As EventArgs) Handles TimesheetButton.Click
+        InterfacePanel.Controls.Clear()
+        Dim timesheet As New ITimeSheet()
+        timesheet.Dock = DockStyle.Fill
+        InterfacePanel.Controls.Add(timesheet)
+        timesheet.BringToFront()
+    End Sub
+
+    Private Sub StatsButton_Click(sender As Object, e As EventArgs) Handles StatsButton.Click
+        InterfacePanel.Controls.Clear()
+        Dim stats As New IStatsMain()
+        stats.Dock = DockStyle.Fill
+        InterfacePanel.Controls.Add(stats)
+        stats.BringToFront()
+    End Sub
+
+    Private Sub NotifyButton_Click(sender As Object, e As EventArgs) Handles NotifyButton.Click
+        InterfacePanel.Controls.Clear()
+        Dim notif As New INotifCenter()
+        notif.Dock = DockStyle.Fill
+        InterfacePanel.Controls.Add(notif)
+        notif.BringToFront()
+    End Sub
 End Class

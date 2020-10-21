@@ -102,7 +102,6 @@
     <Compile Include="AppBundle\Controllers\ControllerAutoComplete.vb" />
     <Compile Include="AppBundle\Controllers\ControllerDates.vb" />
     <Compile Include="AppBundle\Entity\EntityCategory.vb" />
-    <Compile Include="AppBundle\Entity\EntityConnection.vb" />
     <Compile Include="AppBundle\Entity\EntityEquipment.vb" />
     <Compile Include="AppBundle\Entity\EntityPerson.vb" />
     <Compile Include="AppBundle\Entity\EntityRental.vb" />
@@ -239,6 +238,12 @@
     <Compile Include="AppBundle\UserControls\IReturnDetails.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="AppBundle\UserControls\horaire\ITimeSheet.Designer.vb">
+      <DependentUpon>ITimeSheet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AppBundle\UserControls\horaire\ITimeSheet.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="AppBundle\UserControls\IViewReturnDetails.Designer.vb">
       <DependentUpon>IViewReturnDetails.vb</DependentUpon>
     </Compile>
@@ -249,6 +254,18 @@
       <DependentUpon>IViewReturns.vb</DependentUpon>
     </Compile>
     <Compile Include="AppBundle\UserControls\IViewReturns.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AppBundle\UserControls\Notification\INotifCenter.Designer.vb">
+      <DependentUpon>INotifCenter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AppBundle\UserControls\Notification\INotifCenter.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AppBundle\UserControls\statistique\IStatsMain.Designer.vb">
+      <DependentUpon>IStatsMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AppBundle\UserControls\statistique\IStatsMain.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Model1.Designer.vb">
@@ -275,6 +292,9 @@
   <ItemGroup>
     <EmbeddedResource Include="AppBundle\MainForm.resx">
       <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppBundle\UserControls\horaire\ITimeSheet.resx">
+      <DependentUpon>ITimeSheet.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AppBundle\UserControls\ICategorieAutre.resx">
       <DependentUpon>ICategorieAutre.vb</DependentUpon>
@@ -399,5 +419,6 @@
   <ItemGroup>
     <None Include="Resources\baseline_sync_black_18dp.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
