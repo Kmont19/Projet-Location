@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\RentalProject",
+    "\\RentalProject\\AppBundle",
+    "\\RentalProject\\AppBundle\\UserControls"
   ],
+  "SelectedNode": "\\RentalProject\\AppBundle\\UserControls\\IAddInventory.Designer.vb",
   "PreviewInSolutionExplorer": false
 }
