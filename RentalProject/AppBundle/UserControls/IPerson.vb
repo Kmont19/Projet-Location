@@ -33,11 +33,11 @@
                 If Not EntityRental.getInstance().verifPersonHasRental(id) Then
                     If EntityReturn.getInstance().verifPersonHasReturn(id) Then
                         If MessageBox.Show($"Cette personnes possède un historique de retour{Environment.NewLine}Voulez-vous tout de même la supprimer?{Environment.NewLine}Cette action supprimera tout l'historique d'emprunt de cette personne", "Attention", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) = DialogResult.Yes Then
-                            ModelPerson.getInstance().deletePerson(id)
+                            ModelPerson.getInstance().deletePersonById(id)
                             DeleteButton.Enabled = False
                         End If
                     Else
-                        ModelPerson.getInstance().deletePerson(id)
+                        ModelPerson.getInstance().deletePersonById(id)
                         DeleteButton.Enabled = False
                     End If
                 Else

@@ -133,11 +133,7 @@ Partial Class MainForm
         Me.NotifyButton.Name = "NotifyButton"
         Me.NotifyButton.Size = New System.Drawing.Size(150, 47)
         Me.NotifyButton.TabIndex = 9
-<<<<<<< HEAD
         Me.NotifyButton.Text = "Centre de notifications"
-=======
-        Me.NotifyButton.Text = "Notification Center"
->>>>>>> a8f90059b3f3f598d052754be5f947517322a29a
         Me.NotifyButton.UseVisualStyleBackColor = False
         '
         'StatsButton
@@ -155,11 +151,7 @@ Partial Class MainForm
         Me.StatsButton.Name = "StatsButton"
         Me.StatsButton.Size = New System.Drawing.Size(150, 47)
         Me.StatsButton.TabIndex = 8
-<<<<<<< HEAD
         Me.StatsButton.Text = "Statistiques"
-=======
-        Me.StatsButton.Text = "Statistique"
->>>>>>> a8f90059b3f3f598d052754be5f947517322a29a
         Me.StatsButton.UseVisualStyleBackColor = False
         '
         'TimesheetButton

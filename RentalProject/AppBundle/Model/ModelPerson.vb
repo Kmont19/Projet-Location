@@ -12,16 +12,26 @@ Public Class ModelPerson
         Return instance
     End Function
 
-    Public Function deletePerson(id As Integer)
+    Public Sub deletePersonById(id As Integer)
         Dim command As New MySqlCommand
         command.Connection = connection
         command.CommandText = $"Delete from personne where noPersonne = {id}"
         connection.Open()
         command.ExecuteNonQuery()
         connection.Close()
-    End Function
+    End Sub
 
-    Public Function addPerson(ByVal nom As String,
+    Public Sub deletePersonByMatricule(matricule As Integer)
+        Dim command As New MySqlCommand
+        command.Connection = connection
+        command.CommandText = $"Delete from personne where matricule = {matricule}"
+        connection.Open()
+        command.ExecuteNonQuery()
+        connection.Close()
+    End Sub
+
+    Public Sub addPerson(ByVal matricule As Integer,
+                         ByVal nom As String,
                          ByVal prenom As String,
                          ByVal statut As String,
                          ByVal departement As String,
@@ -35,7 +45,7 @@ Public Class ModelPerson
             command.Connection = connection
             connection.Open()
             command.CommandText = $"insert into personne
-            values('','{nom}','{prenom}', '{statut}', '{departement}', '{service}', '{bureau}', '{telephone}', {poste}, '{email}')"
+            values('','{matricule}','{nom}','{prenom}', '{statut}', '{departement}', '{service}', '{bureau}', '{telephone}', {poste}, '{email}')"
 
             Dim result = command.ExecuteNonQuery()
             connection.Close()
@@ -43,18 +53,18 @@ Public Class ModelPerson
         Catch ex As Exception
             MessageBox.Show("Une erreur s'est produite lors de l'ajout.")
         End Try
-    End Function
+    End Sub
 
-    Public Function modifyPerson(id As Integer,
-                                 lastName As String,
-                                 firstName As String,
-                                 status As String,
-                                 department As String,
-                                 service As String,
-                                 office As String,
-                                 phone As String,
-                                 extension As Integer,
-                                 mail As String)
+    Public Sub modifyPerson(id As Integer,
+                            lastName As String,
+                            firstName As String,
+                            status As String,
+                            department As String,
+                            service As String,
+                            office As String,
+                            phone As String,
+                            extension As Integer,
+                            mail As String)
         Try
             Dim command As New MySqlCommand
             command.Connection = connection
@@ -66,5 +76,5 @@ Public Class ModelPerson
         Catch ex As Exception
             MessageBox.Show("Une erreur s'est produite lors de la modification.")
         End Try
-    End Function
+    End Sub
 End Class

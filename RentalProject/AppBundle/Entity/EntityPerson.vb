@@ -36,6 +36,18 @@ Public Class EntityPerson
         Return table
     End Function
 
+    Public Function getPersonByMatricule(matricule As Integer) As DataTable
+        Dim command As New MySqlCommand
+        command.Connection = connection
+        command.CommandText = $"Select * from personne where matricule = {matricule}"
+        connection.Open()
+        Dim reader = command.ExecuteReader()
+        Dim table As New DataTable("personne")
+        table.Load(reader)
+        connection.Close()
+        Return table
+    End Function
+
     Public Function getPersonneByFirstName(name As String) As DataTable
         Dim command As New MySqlCommand
         command.Connection = connection
@@ -57,7 +69,6 @@ Public Class EntityPerson
         Dim table As New DataTable("personne")
         table.Load(reader)
         connection.Close()
-        'fsfsf'
         Return table
 
     End Function
