@@ -235,6 +235,7 @@ Public Class IEmprunt
         MainForm.InterfacePanel.Controls.Add(person)
         person.BringToFront()
     End Sub
+
 End Class
 
 
