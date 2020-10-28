@@ -109,4 +109,12 @@
         InterfacePanel.Controls.Add(notif)
         notif.BringToFront()
     End Sub
+
+    Private Sub ReservationButton_Click(sender As Object, e As EventArgs) Handles ReservationButton.Click
+        InterfacePanel.Controls.Clear()
+        Dim reserv As New IReservation(Me)
+        reserv.Dock = DockStyle.Fill
+        InterfacePanel.Controls.Add(reserv)
+        reserv.BringToFront()
+    End Sub
 End Class
