@@ -1,7 +1,7 @@
 ﻿Imports MySql.Data.MySqlClient
 
 Public Class EntityConnexion
-    Dim connection As New MySqlConnection(MainForm.getInstance().connectionString)
+    Dim connection As New MySqlConnection(Connexion.getInstance().connectionString)
     Shared instance As EntityConnexion = Nothing
 
     Public Shared Function getInstance() As EntityConnexion

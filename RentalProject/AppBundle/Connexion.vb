@@ -1,4 +1,14 @@
 ﻿Public Class Connexion
+
+    Shared instance As Connexion = Nothing
+
+    Public Shared Function getInstance() As Connexion
+        If IsNothing(instance) Then
+            instance = New Connexion()
+        End If
+        Return instance
+    End Function
+
     Private Sub BTConnexion_Click(sender As Object, e As EventArgs) Handles BTConnexion.Click
         Dim user, password
         Dim verif = False
