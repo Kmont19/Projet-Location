@@ -130,6 +130,7 @@
     <Compile Include="AppBundle\Entity\EntityEquipment.vb" />
     <Compile Include="AppBundle\Entity\EntityPerson.vb" />
     <Compile Include="AppBundle\Entity\EntityRental.vb" />
+    <Compile Include="AppBundle\Entity\EntityReservations.vb" />
     <Compile Include="AppBundle\Entity\EntityReturn.vb" />
     <Compile Include="AppBundle\Model\ModelCategory.vb" />
     <Compile Include="AppBundle\MainForm.vb">

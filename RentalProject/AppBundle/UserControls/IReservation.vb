@@ -13,7 +13,7 @@
 
 
     Private Sub IReservation_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        loadData(EntityReservation.getInstance().getReservation)
+        loadData(EntityReservations.getInstance().getReservation)
     End Sub
 
     Public Function loadData(data As DataTable)
