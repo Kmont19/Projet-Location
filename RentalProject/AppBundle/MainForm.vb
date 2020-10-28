@@ -2,6 +2,7 @@
 
     Private isMouseDown As Boolean = False
     Private mouseOffset As Point
+    Public connectionString = "Server='localhost';Database='projetsession';Uid='root';Pwd='';Port=3308;"
     Shared instance As MainForm = Nothing
 
     Private Sub MainForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load

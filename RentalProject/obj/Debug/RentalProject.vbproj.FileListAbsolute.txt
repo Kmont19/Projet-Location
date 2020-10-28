@@ -289,3 +289,4 @@ C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Locatio
 C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.xml
 C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.pdb
 C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.IReservation.resources
+C:\Users\dacam\Documents\Technique en informatique\Session 5\Multimedia\Projet-Location\RentalProject\obj\Debug\RentalProject.IReservation.resources
