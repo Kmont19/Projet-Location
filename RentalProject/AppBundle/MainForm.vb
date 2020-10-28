@@ -1,6 +1,5 @@
 ﻿Public Class MainForm
 
-    Public connectionString = "Server='localhost';Database='projetsession';Uid='root';Pwd='';Port=3308;"
     Private isMouseDown As Boolean = False
     Private mouseOffset As Point
     Shared instance As MainForm = Nothing
