@@ -1,6 +1,7 @@
 ﻿Public Class Connexion
 
     Shared instance As Connexion = Nothing
+    Public connectionString = "Server='localhost';Database='projetsession';Uid='root';Pwd='';Port=3308;"
 
     Public Shared Function getInstance() As Connexion
         If IsNothing(instance) Then
