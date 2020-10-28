@@ -29,13 +29,14 @@ Public Class EntityConnexion
 
         Dim command As New MySqlCommand
         command.Connection = connection
-        command.CommandText = $"Select count(*) from utilisateur where matricule = {matricule} and password = {password}"
+        command.CommandText = $"Select count(*) from utilisateur where matricule = {matricule}"
         connection.Open()
-        Dim reader = command.ExecuteReader()
 
-        If (reader.Read = 1) Then
+        Dim result = command.ExecuteScalar()
+
+        If (result = 1) Then
             verif = True
-        ElseIf (reader.Read = 0) Then
+        Else
             verif = False
         End If
 

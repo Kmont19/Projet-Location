@@ -41,6 +41,7 @@ Public Class IAddPerson
     Private Sub AddButton_Click(sender As Object, e As EventArgs) Handles AddButton.Click
         TBPrenom.Text = Regex.Replace(TBPrenom.Text, "[\d-]", String.Empty)
         TBNom.Text = Regex.Replace(TBNom.Text, "[\d-]", String.Empty)
+        TBMatricule.Text = Regex.Replace(TBMatricule.Text, "[\d-]", String.Empty)
         TBDepartement.Text = Regex.Replace(TBDepartement.Text, "[\d-]", String.Empty)
         TBService.Text = Regex.Replace(TBService.Text, "[\d-]", String.Empty)
         TBPrenom.Text = Regex.Replace(TBPrenom.Text, "[^A-Za-z ]", String.Empty)
@@ -61,11 +62,11 @@ Public Class IAddPerson
                             If String.IsNullOrEmpty(TBPoste.Text) Then
                                 TBPoste.Text = 0
                             End If
-                            ModelPerson.getInstance.addPerson(TBNom.Text, TBPrenom.Text, CBStatut.Text, TBDepartement.Text, TBService.Text, TBBureau.Text, TBTelephone.Text, CInt(TBPoste.Text), Email.Text)
+                            ModelPerson.getInstance.addPerson(TBMatricule.Text, TBNom.Text, TBPrenom.Text, CBStatut.Text, TBDepartement.Text, TBService.Text, TBBureau.Text, TBTelephone.Text, CInt(TBPoste.Text), Email.Text)
                         Else MessageBox.Show("Veuillez Vérifier les informations")
                         End If
                     Else
-                        ModelPerson.getInstance.addPerson(TBNom.Text, TBPrenom.Text, CBStatut.Text, TBDepartement.Text, "", "", TBTelephone.Text, CInt("0"), Email.Text)
+                        ModelPerson.getInstance.addPerson(TBMatricule.Text, TBNom.Text, TBPrenom.Text, CBStatut.Text, TBDepartement.Text, "", "", TBTelephone.Text, CInt("0"), Email.Text)
                     End If
                     createPersonAutoComplete(rent.Person)
                     Me.SendToBack()
@@ -98,5 +99,4 @@ Public Class IAddPerson
             TBPoste.Enabled = False
         End If
     End Sub
-
 End Class

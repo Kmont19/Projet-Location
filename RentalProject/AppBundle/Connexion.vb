@@ -20,9 +20,10 @@
         If (user.Length > 0 And password.Length > 0) Then
             verif = EntityConnexion.getInstance.verifUser(user, password)
             If (verif = True) Then
-                Me.Close()
+
                 Dim main = New MainForm()
                 main.Show()
+                Me.Close()
             Else
                 MessageBox.Show("Les données de connexion sont incorrects, veuillez essayer à nouveau.", "Error de connexion")
             End If
