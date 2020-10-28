@@ -256,3 +256,35 @@ C:\Users\dacam\Documents\Technique en informatique\Session 5\Multimedia\Projet-L
 C:\Users\dacam\Documents\Technique en informatique\Session 5\Multimedia\Projet-Location\RentalProject\bin\Debug\Renci.SshNet.xml
 C:\Users\dacam\Documents\Technique en informatique\Session 5\Multimedia\Projet-Location\RentalProject\obj\Debug\RentalProject.vbproj.CopyComplete
 C:\Users\dacam\Documents\Technique en informatique\Session 5\Multimedia\Projet-Location\RentalProject\obj\Debug\RentalProject.Connexion.resources
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.vbprojAssemblyReference.cache
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.Connexion.resources
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.MainForm.resources
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.ITimeSheet.resources
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.ICategorieAutre.resources
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.IModifyPerson.resources
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.IInventorySearch.resources
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.IModifyRental.resources
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.ICategory.resources
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.ICategorySearch.resources
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.IAddPerson.resources
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.IPerson.resources
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.IPersonDetails.resources
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.IPersonSearch.resources
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.IRentalsDetails.resources
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.IEmprunt.resources
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.IHome.resources
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.IInventory.resources
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.IRentals.resources
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.IRentalsSearch.resources
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.IAddInventory.resources
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.IModifyInventory.resources
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.IEquipmentDetails.resources
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.IReturnDetails.resources
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.IViewReturnDetails.resources
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.IViewReturns.resources
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.Resources.resources
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.vbproj.GenerateResource.cache
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.vbproj.CoreCompileInputs.cache
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.exe
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.xml
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.pdb
