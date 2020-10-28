@@ -1,5 +1,6 @@
 ﻿Public Class Connexion
 
+    Public connectionString = "Server='localhost';Database='projetsession';Uid='root';Pwd='';Port=3308;"
     Shared instance As Connexion = Nothing
 
     Public Shared Function getInstance() As Connexion
