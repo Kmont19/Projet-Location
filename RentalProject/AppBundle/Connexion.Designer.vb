@@ -31,18 +31,20 @@ Partial Class Connexion
         '
         'TBUser
         '
-        Me.TBUser.Location = New System.Drawing.Point(149, 61)
+        Me.TBUser.Location = New System.Drawing.Point(199, 75)
+        Me.TBUser.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TBUser.Name = "TBUser"
-        Me.TBUser.Size = New System.Drawing.Size(145, 20)
+        Me.TBUser.Size = New System.Drawing.Size(192, 22)
         Me.TBUser.TabIndex = 0
         '
         'LaUser
         '
         Me.LaUser.AutoSize = True
         Me.LaUser.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
-        Me.LaUser.Location = New System.Drawing.Point(43, 62)
+        Me.LaUser.Location = New System.Drawing.Point(57, 76)
+        Me.LaUser.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LaUser.Name = "LaUser"
-        Me.LaUser.Size = New System.Drawing.Size(71, 17)
+        Me.LaUser.Size = New System.Drawing.Size(85, 20)
         Me.LaUser.TabIndex = 1
         Me.LaUser.Text = "Utilisateur"
         '
@@ -50,17 +52,19 @@ Partial Class Connexion
         '
         Me.LaPassword.AutoSize = True
         Me.LaPassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
-        Me.LaPassword.Location = New System.Drawing.Point(21, 122)
+        Me.LaPassword.Location = New System.Drawing.Point(28, 150)
+        Me.LaPassword.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.LaPassword.Name = "LaPassword"
-        Me.LaPassword.Size = New System.Drawing.Size(93, 17)
+        Me.LaPassword.Size = New System.Drawing.Size(110, 20)
         Me.LaPassword.TabIndex = 3
         Me.LaPassword.Text = "Mot de passe"
         '
         'TBPassword
         '
-        Me.TBPassword.Location = New System.Drawing.Point(149, 121)
+        Me.TBPassword.Location = New System.Drawing.Point(199, 149)
+        Me.TBPassword.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TBPassword.Name = "TBPassword"
-        Me.TBPassword.Size = New System.Drawing.Size(145, 20)
+        Me.TBPassword.Size = New System.Drawing.Size(192, 22)
         Me.TBPassword.TabIndex = 1
         '
         'BTConnexion
@@ -70,20 +74,20 @@ Partial Class Connexion
         Me.BTConnexion.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BTConnexion.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.BTConnexion.ForeColor = System.Drawing.Color.White
-        Me.BTConnexion.Location = New System.Drawing.Point(111, 185)
+        Me.BTConnexion.Location = New System.Drawing.Point(148, 228)
         Me.BTConnexion.Margin = New System.Windows.Forms.Padding(0)
         Me.BTConnexion.Name = "BTConnexion"
-        Me.BTConnexion.Size = New System.Drawing.Size(102, 40)
+        Me.BTConnexion.Size = New System.Drawing.Size(136, 49)
         Me.BTConnexion.TabIndex = 2
         Me.BTConnexion.Text = "Se connecter"
         Me.BTConnexion.UseVisualStyleBackColor = False
         '
         'Connexion
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(187, Byte), Integer), CType(CType(222, Byte), Integer), CType(CType(251, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(322, 273)
+        Me.ClientSize = New System.Drawing.Size(429, 336)
         Me.Controls.Add(Me.BTConnexion)
         Me.Controls.Add(Me.LaPassword)
         Me.Controls.Add(Me.TBPassword)
@@ -91,6 +95,7 @@ Partial Class Connexion
         Me.Controls.Add(Me.TBUser)
         Me.Cursor = System.Windows.Forms.Cursors.Hand
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Connexion"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Connexion"
