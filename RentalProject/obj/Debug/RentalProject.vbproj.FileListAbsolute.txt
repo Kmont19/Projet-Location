@@ -255,3 +255,4 @@ C:\Users\dacam\Documents\Technique en informatique\Session 5\Multimedia\Projet-L
 C:\Users\dacam\Documents\Technique en informatique\Session 5\Multimedia\Projet-Location\RentalProject\bin\Debug\MySql.Data.xml
 C:\Users\dacam\Documents\Technique en informatique\Session 5\Multimedia\Projet-Location\RentalProject\bin\Debug\Renci.SshNet.xml
 C:\Users\dacam\Documents\Technique en informatique\Session 5\Multimedia\Projet-Location\RentalProject\obj\Debug\RentalProject.vbproj.CopyComplete
+C:\Users\dacam\Documents\Technique en informatique\Session 5\Multimedia\Projet-Location\RentalProject\obj\Debug\RentalProject.Connexion.resources

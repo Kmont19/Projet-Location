@@ -14,7 +14,7 @@ Option Explicit On
 
 Namespace My
     
-    'REMARQUE : ce fichier étant généré automatiquement, ne le modifiez pas directement. Pour apporter des modifications,
+    'REMARQUE : Ce fichier étant généré automatiquement, ne le modifiez pas directement.  Pour apporter des modifications,
     ' ou si vous rencontrez des erreurs de build dans ce fichier, accédez au Concepteur de projets
     ' (allez dans les propriétés du projet ou double-cliquez sur le nœud My Project dans
     ' l'Explorateur de solutions), puis apportez vos modifications sous l'onglet Application.
@@ -27,12 +27,12 @@ Namespace My
             Me.IsSingleInstance = false
             Me.EnableVisualStyles = true
             Me.SaveMySettingsOnExit = true
-            Me.ShutDownStyle = Global.Microsoft.VisualBasic.ApplicationServices.ShutdownMode.AfterMainFormCloses
+            Me.ShutDownStyle = Global.Microsoft.VisualBasic.ApplicationServices.ShutdownMode.AfterAllFormsClose
         End Sub
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.RentalProject.MainForm
+            Me.MainForm = Global.RentalProject.Connexion
         End Sub
     End Class
 End Namespace

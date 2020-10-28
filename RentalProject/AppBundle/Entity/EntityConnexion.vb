@@ -23,15 +23,25 @@ Public Class EntityConnexion
         Return table
     End Function
 
-    Public Function getUserByMatricule(matricule As Integer) As Integer
+    Public Function verifUser(matricule As Integer, password As String) As Boolean
+
+        Dim verif = False
+
         Dim command As New MySqlCommand
         command.Connection = connection
-        command.CommandText = $"Select Count(*) from utilisateur where matricule = '{matricule}"
+        command.CommandText = $"Select count(*) from utilisateur where matricule = {matricule} and password = {password}"
         connection.Open()
         Dim reader = command.ExecuteReader()
-        Dim verif = reader
+
+        If (reader.Read = 1) Then
+            verif = True
+        ElseIf (reader.Read = 0) Then
+            verif = False
+        End If
+
         connection.Close()
         Return verif
+
     End Function
 
 End Class
