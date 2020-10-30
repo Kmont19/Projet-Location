@@ -3,8 +3,13 @@
     "",
     "\\RentalProject",
     "\\RentalProject\\AppBundle",
-    "\\RentalProject\\AppBundle\\UserControls"
+    "\\RentalProject\\AppBundle\\Entity",
+    "\\RentalProject\\AppBundle\\Model",
+    "\\RentalProject\\AppBundle\\UserControls",
+    "\\RentalProject\\AppBundle\\UserControls\\horaire",
+    "\\RentalProject\\AppBundle\\UserControls\\Notification",
+    "\\RentalProject\\AppBundle\\UserControls\\statistique"
   ],
-  "SelectedNode": "\\RentalProject\\AppBundle\\UserControls\\IAddInventory.Designer.vb",
+  "SelectedNode": "\\RentalProject\\AppBundle\\Entity\\EntityReturn.vb",
   "PreviewInSolutionExplorer": false
 }
