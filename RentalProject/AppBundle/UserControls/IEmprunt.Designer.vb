@@ -96,7 +96,7 @@ Partial Class IEmprunt
         'TbAutorise
         '
         Me.TbAutorise.Location = New System.Drawing.Point(159, 250)
-        Me.TbAutorise.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TbAutorise.Margin = New System.Windows.Forms.Padding(4)
         Me.TbAutorise.MaxLength = 30
         Me.TbAutorise.Name = "TbAutorise"
         Me.TbAutorise.Size = New System.Drawing.Size(265, 22)
@@ -106,7 +106,7 @@ Partial Class IEmprunt
         '
         Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.DateTimePicker1.Location = New System.Drawing.Point(61, 418)
-        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(4)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(311, 22)
         Me.DateTimePicker1.TabIndex = 7
@@ -117,7 +117,7 @@ Partial Class IEmprunt
         Me.CbCategorie.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CbCategorie.FormattingEnabled = True
         Me.CbCategorie.Location = New System.Drawing.Point(159, 149)
-        Me.CbCategorie.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CbCategorie.Margin = New System.Windows.Forms.Padding(4)
         Me.CbCategorie.Name = "CbCategorie"
         Me.CbCategorie.Size = New System.Drawing.Size(265, 24)
         Me.CbCategorie.TabIndex = 9
@@ -129,7 +129,7 @@ Partial Class IEmprunt
         Me.CbEquipement.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CbEquipement.FormattingEnabled = True
         Me.CbEquipement.Location = New System.Drawing.Point(159, 202)
-        Me.CbEquipement.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CbEquipement.Margin = New System.Windows.Forms.Padding(4)
         Me.CbEquipement.Name = "CbEquipement"
         Me.CbEquipement.Size = New System.Drawing.Size(213, 24)
         Me.CbEquipement.TabIndex = 10
@@ -137,7 +137,7 @@ Partial Class IEmprunt
         'NumericUpDownJour
         '
         Me.NumericUpDownJour.Location = New System.Drawing.Point(61, 356)
-        Me.NumericUpDownJour.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.NumericUpDownJour.Margin = New System.Windows.Forms.Padding(4)
         Me.NumericUpDownJour.Maximum = New Decimal(New Integer() {720, 0, 0, 0})
         Me.NumericUpDownJour.Name = "NumericUpDownJour"
         Me.NumericUpDownJour.Size = New System.Drawing.Size(81, 22)
@@ -181,7 +181,7 @@ Partial Class IEmprunt
         Me.CheckBox1.AutoSize = True
         Me.CheckBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox1.Location = New System.Drawing.Point(269, 390)
-        Me.CheckBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CheckBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(103, 24)
         Me.CheckBox1.TabIndex = 16
@@ -202,7 +202,7 @@ Partial Class IEmprunt
         'NumericUpDownHeure
         '
         Me.NumericUpDownHeure.Location = New System.Drawing.Point(291, 358)
-        Me.NumericUpDownHeure.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.NumericUpDownHeure.Margin = New System.Windows.Forms.Padding(4)
         Me.NumericUpDownHeure.Maximum = New Decimal(New Integer() {720, 0, 0, 0})
         Me.NumericUpDownHeure.Name = "NumericUpDownHeure"
         Me.NumericUpDownHeure.Size = New System.Drawing.Size(81, 22)
@@ -360,7 +360,7 @@ Partial Class IEmprunt
         Me.EquipmentCollection.FullRowSelect = True
         Me.EquipmentCollection.HideSelection = False
         Me.EquipmentCollection.Location = New System.Drawing.Point(448, 91)
-        Me.EquipmentCollection.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.EquipmentCollection.Margin = New System.Windows.Forms.Padding(4)
         Me.EquipmentCollection.MultiSelect = False
         Me.EquipmentCollection.Name = "EquipmentCollection"
         Me.EquipmentCollection.Size = New System.Drawing.Size(327, 182)
@@ -389,7 +389,7 @@ Partial Class IEmprunt
         Me.NewPersonButton.ForeColor = System.Drawing.Color.White
         Me.NewPersonButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.NewPersonButton.Location = New System.Drawing.Point(381, 94)
-        Me.NewPersonButton.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.NewPersonButton.Margin = New System.Windows.Forms.Padding(4)
         Me.NewPersonButton.Name = "NewPersonButton"
         Me.NewPersonButton.Size = New System.Drawing.Size(44, 26)
         Me.NewPersonButton.TabIndex = 102
@@ -408,7 +408,7 @@ Partial Class IEmprunt
         Me.SelectButton.ForeColor = System.Drawing.Color.White
         Me.SelectButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.SelectButton.Location = New System.Drawing.Point(381, 202)
-        Me.SelectButton.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.SelectButton.Margin = New System.Windows.Forms.Padding(4)
         Me.SelectButton.Name = "SelectButton"
         Me.SelectButton.Size = New System.Drawing.Size(44, 26)
         Me.SelectButton.TabIndex = 101
@@ -419,7 +419,7 @@ Partial Class IEmprunt
         'Person
         '
         Me.Person.Location = New System.Drawing.Point(159, 96)
-        Me.Person.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Person.Margin = New System.Windows.Forms.Padding(4)
         Me.Person.MaxLength = 30
         Me.Person.Name = "Person"
         Me.Person.Size = New System.Drawing.Size(213, 22)
@@ -467,7 +467,7 @@ Partial Class IEmprunt
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.MinimumSize = New System.Drawing.Size(781, 542)
         Me.Name = "IEmprunt"
         Me.Size = New System.Drawing.Size(781, 542)

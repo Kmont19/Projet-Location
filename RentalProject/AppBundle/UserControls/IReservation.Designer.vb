@@ -49,11 +49,12 @@ Partial Class IReservation
         'ListView1
         '
         Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ID, Me.Réserver, Me.Autorisé})
+        Me.ListView1.FullRowSelect = True
         Me.ListView1.HideSelection = False
-        Me.ListView1.Location = New System.Drawing.Point(1, 75)
+        Me.ListView1.Location = New System.Drawing.Point(1, 94)
         Me.ListView1.MultiSelect = False
         Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(780, 393)
+        Me.ListView1.Size = New System.Drawing.Size(975, 491)
         Me.ListView1.TabIndex = 5
         Me.ListView1.UseCompatibleStateImageBehavior = False
         Me.ListView1.View = System.Windows.Forms.View.Details
@@ -81,10 +82,10 @@ Partial Class IReservation
         Me.Panel6.Controls.Add(Me.ReturnButton)
         Me.Panel6.Controls.Add(Me.RentButton)
         Me.Panel6.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel6.Location = New System.Drawing.Point(0, 471)
+        Me.Panel6.Location = New System.Drawing.Point(0, 453)
         Me.Panel6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(781, 71)
+        Me.Panel6.Size = New System.Drawing.Size(780, 89)
         Me.Panel6.TabIndex = 6
         '
         'WarningLabel
@@ -110,7 +111,7 @@ Partial Class IReservation
         Me.DetailsButton.Location = New System.Drawing.Point(0, 0)
         Me.DetailsButton.Margin = New System.Windows.Forms.Padding(7, 6, 7, 6)
         Me.DetailsButton.Name = "DetailsButton"
-        Me.DetailsButton.Size = New System.Drawing.Size(125, 71)
+        Me.DetailsButton.Size = New System.Drawing.Size(125, 89)
         Me.DetailsButton.TabIndex = 8
         Me.DetailsButton.Text = "Afficher les Détails"
         Me.DetailsButton.UseVisualStyleBackColor = False
@@ -126,10 +127,10 @@ Partial Class IReservation
         Me.SearchButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SearchButton.ForeColor = System.Drawing.Color.White
         Me.SearchButton.Image = Global.RentalProject.My.Resources.Resources.baseline_search_white_18dp
-        Me.SearchButton.Location = New System.Drawing.Point(348, 0)
+        Me.SearchButton.Location = New System.Drawing.Point(347, 0)
         Me.SearchButton.Margin = New System.Windows.Forms.Padding(7, 6, 7, 6)
         Me.SearchButton.Name = "SearchButton"
-        Me.SearchButton.Size = New System.Drawing.Size(125, 71)
+        Me.SearchButton.Size = New System.Drawing.Size(125, 89)
         Me.SearchButton.TabIndex = 7
         Me.SearchButton.UseVisualStyleBackColor = False
         '
@@ -143,12 +144,12 @@ Partial Class IReservation
         Me.ReturnButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ReturnButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ReturnButton.ForeColor = System.Drawing.Color.White
-        Me.ReturnButton.Location = New System.Drawing.Point(473, 0)
+        Me.ReturnButton.Location = New System.Drawing.Point(472, 0)
         Me.ReturnButton.Margin = New System.Windows.Forms.Padding(7, 6, 7, 6)
         Me.ReturnButton.Name = "ReturnButton"
-        Me.ReturnButton.Size = New System.Drawing.Size(161, 71)
+        Me.ReturnButton.Size = New System.Drawing.Size(161, 89)
         Me.ReturnButton.TabIndex = 6
-        Me.ReturnButton.Text = "Retourner un Équipement"
+        Me.ReturnButton.Text = "Annuler une réservation"
         Me.ReturnButton.UseVisualStyleBackColor = False
         '
         'RentButton
@@ -161,10 +162,10 @@ Partial Class IReservation
         Me.RentButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.RentButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RentButton.ForeColor = System.Drawing.Color.White
-        Me.RentButton.Location = New System.Drawing.Point(634, 0)
+        Me.RentButton.Location = New System.Drawing.Point(633, 0)
         Me.RentButton.Margin = New System.Windows.Forms.Padding(7, 6, 7, 6)
         Me.RentButton.Name = "RentButton"
-        Me.RentButton.Size = New System.Drawing.Size(147, 71)
+        Me.RentButton.Size = New System.Drawing.Size(147, 89)
         Me.RentButton.TabIndex = 5
         Me.RentButton.Text = "Ajouter un Emprunt"
         Me.RentButton.UseVisualStyleBackColor = False
@@ -181,7 +182,7 @@ Partial Class IReservation
         Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.MinimumSize = New System.Drawing.Size(781, 542)
         Me.Name = "IReservation"
-        Me.Size = New System.Drawing.Size(781, 542)
+        Me.Size = New System.Drawing.Size(624, 433)
         Me.Panel6.ResumeLayout(False)
         Me.Panel6.PerformLayout()
         Me.ResumeLayout(False)

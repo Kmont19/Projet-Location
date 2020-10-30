@@ -303,4 +303,5 @@ C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Locatio
 C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\bin\Debug\MySql.Data.xml
 C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\bin\Debug\Renci.SshNet.xml
 C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.vbproj.CopyComplete
-C:\Users\dacam\Documents\Technique en informatique\Session 5\Multimedia\Projet-Location\RentalProject\obj\Debug\RentalProject.INotifCenter.resources
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.IStatsMain.resources
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.IAddReservation.resources
