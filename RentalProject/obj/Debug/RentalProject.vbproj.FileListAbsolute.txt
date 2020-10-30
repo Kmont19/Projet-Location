@@ -290,3 +290,16 @@ C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Locatio
 C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.pdb
 C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.IReservation.resources
 C:\Users\dacam\Documents\Technique en informatique\Session 5\Multimedia\Projet-Location\RentalProject\obj\Debug\RentalProject.IReservation.resources
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\bin\Debug\RentalProject.exe.config
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\bin\Debug\RentalProject.exe
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\bin\Debug\RentalProject.pdb
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\bin\Debug\RentalProject.xml
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\bin\Debug\Google.Protobuf.dll
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\bin\Debug\MySql.Data.dll
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\bin\Debug\Renci.SshNet.dll
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\bin\Debug\Google.Protobuf.xml
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\bin\Debug\MySql.Data.xml
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\bin\Debug\Renci.SshNet.xml
+C:\Users\Marc-\OneDrive\Bureau\PROJET GESTION D'INVENTAIRE\kraken\Projet-Location\RentalProject\obj\Debug\RentalProject.vbproj.CopyComplete
