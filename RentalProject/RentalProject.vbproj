@@ -94,13 +94,9 @@
     <Reference Include="System.Security" />
     <Reference Include="System.Transactions" />
     <Reference Include="System.Windows.Forms" />
-<<<<<<< HEAD
-    <Reference Include="System.Windows.Forms.DataVisualization" />
-=======
     <Reference Include="System.Windows.Forms.Calendar">
       <HintPath>.\System.Windows.Forms.Calendar.dll</HintPath>
     </Reference>
->>>>>>> main
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -152,16 +148,6 @@
     <Compile Include="AppBundle\Model\ModelPerson.vb" />
     <Compile Include="AppBundle\Model\ModelRental.vb" />
     <Compile Include="AppBundle\Model\ModelReturn.vb" />
-<<<<<<< HEAD
-    <Compile Include="AppBundle\UserControls\IAddReservation.Designer.vb">
-      <DependentUpon>IAddReservation.vb</DependentUpon>
-    </Compile>
-    <Compile Include="AppBundle\UserControls\IAddReservation.vb">
-      <SubType>UserControl</SubType>
-    </Compile>
-=======
-    <Compile Include="AppBundle\UserControls\Horaire\ItemInfo.vb" />
->>>>>>> main
     <Compile Include="AppBundle\UserControls\ICategorieAutre.Designer.vb">
       <DependentUpon>ICategorieAutre.vb</DependentUpon>
     </Compile>
@@ -422,14 +408,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AppBundle\UserControls\IViewReturns.resx">
       <DependentUpon>IViewReturns.vb</DependentUpon>
-    </EmbeddedResource>
-<<<<<<< HEAD
-    <EmbeddedResource Include="AppBundle\UserControls\Statistique\IStatsMain.resx">
-      <DependentUpon>IStatsMain.vb</DependentUpon>
-=======
-    <EmbeddedResource Include="AppBundle\UserControls\Notification\INotifCenter.resx">
-      <DependentUpon>INotifCenter.vb</DependentUpon>
->>>>>>> main
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
