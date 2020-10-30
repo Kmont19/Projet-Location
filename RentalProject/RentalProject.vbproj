@@ -94,6 +94,7 @@
     <Reference Include="System.Security" />
     <Reference Include="System.Transactions" />
     <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -145,6 +146,12 @@
     <Compile Include="AppBundle\Model\ModelPerson.vb" />
     <Compile Include="AppBundle\Model\ModelRental.vb" />
     <Compile Include="AppBundle\Model\ModelReturn.vb" />
+    <Compile Include="AppBundle\UserControls\IAddReservation.Designer.vb">
+      <DependentUpon>IAddReservation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AppBundle\UserControls\IAddReservation.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="AppBundle\UserControls\ICategorieAutre.Designer.vb">
       <DependentUpon>ICategorieAutre.vb</DependentUpon>
     </Compile>
@@ -333,6 +340,9 @@
     <EmbeddedResource Include="AppBundle\UserControls\Horaire\ITimeSheet.resx">
       <DependentUpon>ITimeSheet.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AppBundle\UserControls\IAddReservation.resx">
+      <DependentUpon>IAddReservation.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AppBundle\UserControls\ICategorieAutre.resx">
       <DependentUpon>ICategorieAutre.vb</DependentUpon>
     </EmbeddedResource>
@@ -401,6 +411,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AppBundle\UserControls\IViewReturns.resx">
       <DependentUpon>IViewReturns.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppBundle\UserControls\Statistique\IStatsMain.resx">
+      <DependentUpon>IStatsMain.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
