@@ -94,6 +94,9 @@
     <Reference Include="System.Security" />
     <Reference Include="System.Transactions" />
     <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.Calendar">
+      <HintPath>.\System.Windows.Forms.Calendar.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -145,6 +148,7 @@
     <Compile Include="AppBundle\Model\ModelPerson.vb" />
     <Compile Include="AppBundle\Model\ModelRental.vb" />
     <Compile Include="AppBundle\Model\ModelReturn.vb" />
+    <Compile Include="AppBundle\UserControls\Horaire\ItemInfo.vb" />
     <Compile Include="AppBundle\UserControls\ICategorieAutre.Designer.vb">
       <DependentUpon>ICategorieAutre.vb</DependentUpon>
     </Compile>
@@ -311,6 +315,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -401,6 +406,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AppBundle\UserControls\IViewReturns.resx">
       <DependentUpon>IViewReturns.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppBundle\UserControls\Notification\INotifCenter.resx">
+      <DependentUpon>INotifCenter.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
